@@ -7,8 +7,8 @@ import sys
 #sum input values
 sum = 0
 n = 0
-for num in open('data.txt'):
-	sum += float(num)
+for numberline in open('data.txt'):
+	sum += float(numberline)
 	n += 1
 print sum / n
 #determine mean of data.txt
