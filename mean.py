@@ -1,6 +1,7 @@
 "mean.py"
 import sys
 
+#sum input values
 sum = 0
 n = 0
 for num in sys.stdin:
